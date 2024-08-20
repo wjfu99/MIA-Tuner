@@ -1,0 +1,122 @@
+fuwenjie@luc2 ~/Extraction-LLMs (defender) [1]> python eval_llm.py
+/home/fuwenjie/.conda/envs/ext-llm/lib/python3.9/site-packages/deepeval/__init__.py:45: UserWarning: You are using deepeval version 0.21.73, however version 0.21.77 is available. You should consider upgrading via the "pip install --upgrade deepeval" command.
+  warnings.warn(
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.02s/it]
+Processing high_school_european_history:   0%|                                                                                        | 0/165 [00:00<?, ?it/s]/home/fuwenjie/.conda/envs/ext-llm/lib/python3.9/site-packages/peft/peft_model.py:1685: UserWarning: Position ids are not supported for parameter efficient tuning. Ignoring position ids.
+  warnings.warn("Position ids are not supported for parameter efficient tuning. Ignoring position ids.")
+Processing high_school_european_history: 100%|██████████████████████████████████████████████████████████████████████████████| 165/165 [13:43<00:00,  4.99s/it]
+MMLU Task Accuracy (task=high_school_european_history): 0.5515151515151515
+Processing business_ethics: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:07<00:00,  5.86s/it]
+MMLU Task Accuracy (task=business_ethics): 0.5515151515151515
+Processing clinical_knowledge: 100%|████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:04<00:00,  5.85s/it]
+MMLU Task Accuracy (task=clinical_knowledge): 0.5818181818181818
+Processing medical_genetics: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:10<00:00,  5.88s/it]
+MMLU Task Accuracy (task=medical_genetics): 0.4727272727272727
+Processing high_school_us_history: 100%|████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:05<00:00,  5.85s/it]
+MMLU Task Accuracy (task=high_school_us_history): 0.4909090909090909
+Processing high_school_physics: 100%|███████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:06<00:00,  5.86s/it]
+MMLU Task Accuracy (task=high_school_physics): 0.509090909090909
+Processing high_school_world_history: 100%|█████████████████████████████████████████████████████████████████████████████████| 165/165 [16:06<00:00,  5.86s/it]
+MMLU Task Accuracy (task=high_school_world_history): 0.4727272727272727
+Processing virology: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:10<00:00,  5.88s/it]
+MMLU Task Accuracy (task=virology): 0.5272727272727272
+Processing high_school_microeconomics: 100%|████████████████████████████████████████████████████████████████████████████████| 165/165 [16:11<00:00,  5.89s/it]
+MMLU Task Accuracy (task=high_school_microeconomics): 0.503030303030303
+Processing econometrics: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:10<00:00,  5.88s/it]
+MMLU Task Accuracy (task=econometrics): 0.49696969696969695
+Processing college_computer_science: 100%|██████████████████████████████████████████████████████████████████████████████████| 165/165 [16:04<00:00,  5.85s/it]
+MMLU Task Accuracy (task=college_computer_science): 0.5454545454545454
+Processing high_school_biology: 100%|███████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:04<00:00,  5.85s/it]
+MMLU Task Accuracy (task=high_school_biology): 0.5575757575757576
+Processing abstract_algebra: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:11<00:00,  5.89s/it]
+MMLU Task Accuracy (task=abstract_algebra): 0.49696969696969695
+Processing professional_accounting: 100%|███████████████████████████████████████████████████████████████████████████████████| 165/165 [16:05<00:00,  5.85s/it]
+MMLU Task Accuracy (task=professional_accounting): 0.5212121212121212
+Processing philosophy: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:08<00:00,  5.87s/it]
+MMLU Task Accuracy (task=philosophy): 0.509090909090909
+Processing professional_medicine: 100%|█████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:59<00:00,  5.81s/it]
+MMLU Task Accuracy (task=professional_medicine): 0.5393939393939394
+Processing nutrition: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:01<00:00,  5.83s/it]
+MMLU Task Accuracy (task=nutrition): 0.5333333333333333
+Processing global_facts: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:01<00:00,  5.83s/it]
+MMLU Task Accuracy (task=global_facts): 0.5151515151515151
+Processing machine_learning:  46%|█████████████████████████████████████████▉                               Processing machine_learning:  47%|██████████████████████████████████████████▍                              Processing machine_learning:  47%|███████████████████████████████████████████                              Processing machine_learning:  48%|███████████████████████████████████████████▌                             Processing machine_learning:  48%|████████████Processing machine_learning: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:57<00:00,  5.80s/it]
+MMLU Task Accuracy (task=machine_learning): 0.5575757575757576
+Processing security_studies: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:58<00:00,  5.81s/it]
+MMLU Task Accuracy (task=security_studies): 0.4909090909090909
+Processing public_relations: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:57<00:00,  5.80s/it]
+MMLU Task Accuracy (task=public_relations): 0.5151515151515151
+Processing professional_psychology: 100%|███████████████████████████████████████████████████████████████████████████████████| 165/165 [15:53<00:00,  5.78s/it]
+MMLU Task Accuracy (task=professional_psychology): 0.5333333333333333
+Processing prehistory: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:57<00:00,  5.80s/it]
+MMLU Task Accuracy (task=prehistory): 0.509090909090909
+Processing anatomy: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:54<00:00,  5.79s/it]
+MMLU Task Accuracy (task=anatomy): 0.5575757575757576
+Processing human_sexuality: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:02<00:00,  5.83s/it]
+MMLU Task Accuracy (task=human_sexuality): 0.509090909090909
+Processing college_medicine: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:01<00:00,  5.83s/it]
+MMLU Task Accuracy (task=college_medicine): 0.5333333333333333
+Processing high_school_government_and_politics: 100%|███████████████████████████████████████████████████████████████████████| 165/165 [16:01<00:00,  5.82s/it]
+MMLU Task Accuracy (task=high_school_government_and_politics): 0.5212121212121212
+Processing college_chemistry: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:56<00:00,  5.79s/it]
+MMLU Task Accuracy (task=college_chemistry): 0.4909090909090909
+Processing logical_fallacies: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:56<00:00,  5.80s/it]
+MMLU Task Accuracy (task=logical_fallacies): 0.5333333333333333
+Processing high_school_geography: 100%|█████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:54<00:00,  5.78s/it]
+MMLU Task Accuracy (task=high_school_geography): 0.5151515151515151
+Processing elementary_mathematics: 100%|████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:54<00:00,  5.78s/it]
+MMLU Task Accuracy (task=elementary_mathematics): 0.5333333333333333
+Processing human_aging: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:53<00:00,  5.78s/it]
+MMLU Task Accuracy (task=human_aging): 0.5272727272727272
+Processing college_mathematics: 100%|███████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:54<00:00,  5.79s/it]
+MMLU Task Accuracy (task=college_mathematics): 0.5878787878787879
+Processing high_school_psychology: 100%|████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:54<00:00,  5.79s/it]
+MMLU Task Accuracy (task=high_school_psychology): 0.47878787878787876
+Processing formal_logic: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:55<00:00,  5.79s/it]
+MMLU Task Accuracy (task=formal_logic): 0.509090909090909
+Processing high_school_statistics: 100%|████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:48<00:00,  5.75s/it]
+MMLU Task Accuracy (task=high_school_statistics): 0.509090909090909
+Processing international_law: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:54<00:00,  5.78s/it]
+MMLU Task Accuracy (task=international_law): 0.509090909090909
+Processing high_school_mathematics: 100%|███████████████████████████████████████████████████████████████████████████████████| 165/165 [15:56<00:00,  5.80s/it]
+MMLU Task Accuracy (task=high_school_mathematics): 0.5515151515151515
+Processing high_school_computer_science: 100%|██████████████████████████████████████████████████████████████████████████████| 165/165 [15:58<00:00,  5.81s/it]
+MMLU Task Accuracy (task=high_school_computer_science): 0.5212121212121212
+Processing conceptual_physics: 100%|████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:56<00:00,  5.80s/it]
+MMLU Task Accuracy (task=conceptual_physics): 0.5151515151515151
+Processing miscellaneous: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:58<00:00,  5.81s/it]
+MMLU Task Accuracy (task=miscellaneous): 0.5393939393939394
+Processing high_school_chemistry: 100%|█████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:56<00:00,  5.80s/it]
+MMLU Task Accuracy (task=high_school_chemistry): 0.49696969696969695
+Processing marketing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:50<00:00,  5.76s/it]
+MMLU Task Accuracy (task=marketing): 0.5454545454545454
+Processing professional_law: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 165/165 [16:00<00:00,  5.82s/it]
+MMLU Task Accuracy (task=professional_law): 0.47878787878787876
+Processing management: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:47<00:00,  5.74s/it]
+MMLU Task Accuracy (task=management): 0.5212121212121212
+Processing college_physics: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:40<00:00,  5.70s/it]
+MMLU Task Accuracy (task=college_physics): 0.48484848484848486
+Processing jurisprudence: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:42<00:00,  5.71s/it]
+MMLU Task Accuracy (task=jurisprudence): 0.5151515151515151
+Processing world_religions: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:45<00:00,  5.73s/it]
+MMLU Task Accuracy (task=world_religions): 0.4666666666666667
+Processing sociology: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:41<00:00,  5.71s/it]
+MMLU Task Accuracy (task=sociology): 0.5393939393939394
+Processing us_foreign_policy: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:41<00:00,  5.71s/it]
+MMLU Task Accuracy (task=us_foreign_policy): 0.503030303030303
+Processing high_school_macroeconomics: 100%|████████████████████████████████████████████████████████████████████████████████| 165/165 [15:39<00:00,  5.69s/it]
+MMLU Task Accuracy (task=high_school_macroeconomics): 0.48484848484848486
+Processing computer_security: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:43<00:00,  5.72s/it]
+MMLU Task Accuracy (task=computer_security): 0.5212121212121212
+Processing moral_scenarios: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:40<00:00,  5.70s/it]
+MMLU Task Accuracy (task=moral_scenarios): 0.5212121212121212
+Processing moral_disputes: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:38<00:00,  5.69s/it]
+MMLU Task Accuracy (task=moral_disputes): 0.49696969696969695
+Processing electrical_engineering: 100%|████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:34<00:00,  5.66s/it]
+MMLU Task Accuracy (task=electrical_engineering): 0.4727272727272727
+Processing astronomy: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:27<00:00,  5.62s/it]
+MMLU Task Accuracy (task=astronomy): 0.5151515151515151
+Processing college_biology: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 165/165 [15:38<00:00,  5.69s/it]
+MMLU Task Accuracy (task=college_biology): 0.5393939393939394
+Overall MMLU Accuracy: 0.5180223285486444
+Overall Score:  0.5180223285486444

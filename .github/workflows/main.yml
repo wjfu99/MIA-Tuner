@@ -1,0 +1,51 @@
+name: Clean Commit History
+
+on: workflow_dispatch
+
+
+jobs:
+  clean_history:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Remove commit history
+      run: |
+        # Set up Git user
+        git config --global user.name "Wenjie Fu"
+        git config --global user.email "wjfu99@outlook.com"
+        git branch
+        ls
+        # Create a new orphan branch with the latest commit
+        git checkout --orphan latest_commit
+        # Add all files to the new branch
+        git add -A
+        # Commit the changes
+        git commit -m "Final Commit"
+
+        # Rename the current branch to main
+        git branch -m latest_commit
+
+        # Force push to update the repository
+        git push -f origin latest_commit:main
+  delete_branches:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: List branches
+      run: |
+        git fetch --prune
+        git branch -r | grep -v '\->' | grep -v 'main' | sed 's/origin\///' > branches_to_delete.txt
+
+    - name: Delete branches
+      run: |
+        while read branch; do
+        git push origin --delete "$branch"
+        done < branches_to_delete.txt
+        
